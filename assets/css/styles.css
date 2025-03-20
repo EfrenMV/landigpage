@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  .box{
+    display: block;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .heder{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    gap: 30px;
+    background-color: #0aad0a;
+  }
+
+    .tx_logo{
+        width: auto;
+        height: auto;
+        border: 2px solid rgb(0, 0, 0); 
+        font-size: 60px;
+        margin-left: 140px;
+    }
+
+    .botones{
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+        width: 800px;
+        height: 30px;
+        border: 2px solid rgb(0, 0, 0);
+
+        /* Margenes */
+        margin-top: 22px;
+    }
+
+    button{
+        font-size: 20px;
+        color: #dcebff;
+        background-color: transparent;
+        transition: text-decoration 0.3s ease; /* Agrega una transición suave */
+        border: none;        
+        }
+    
+        button:hover{
+           cursor: pointer;
+           text-decoration: underline; /* Aplica el subrayado al hacer hover */
+        }
+
+  .box_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    margin: 0 auto;
+    height: 652px;
+    max-width: auto;
+    overflow: visible;
+  }
+    .img{
+        height: 580px;
+        width: 1240px;
+        background-image: url("..//img/background.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 30px;
+        box-shadow: 1px 1px 8px rgb(0, 0, 0);
+    }
+
+.box_info{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+    .mini_box, .mini_box2, .mini_box3{
+        width: 380px;
+        height: 359px;
+        border-radius: 30px;
+        
+    }
+
+    .mini_box, .mini_box3{
+        background-color: #dcebff;
+    }
+
+    .mini_box2{
+        background-color: #ffe598;
+    }
+
+.box_verduras{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+    .c_verduras{
+        display: block;
+        height: 580px;
+        width: 1240px;
+    }
+
+        .c_texto{
+            display: block;
+            height: 100px;
+            width: 1240px;
+        }
+
+        .prin_texto{
+            font-size: 40px;
+        }
+
+        .sub_texto{
+
+        }
+
+        .texto_verdura{
+            background-color: #ffe598;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .img_verduras{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 1200px;
+            height: 440px;
+            gap: 40px;
+        }
+
+        .box_img_0, .box_img_1, .box_img_2{
+            display: block;
+            height: 420px;
+            width: 290px;
+            background-color: #ffe598;
+            border-radius: 20px;
+            box-shadow: 0px 0px 3px rgb(0, 0, 0);
+            transition: all 0.3s ease;
+        }
+
+        .box_img_0:hover, .box_img_1:hover, .box_img_2:hover{
+            box-shadow: 1px 1px 8px #0aad0a;
+        }
+
+        .v_imgizq, .v_imgmid , .v_imgder{
+            height: 300px;
+            width: 290px;
+            background-size: cover;
+            background-position: center;
+        }
+        .v_imgizq{
+            background-image: url("../img/verduras/manzana.jpg");
+        }
+
+        .v_imgmid{
+            background-image: url("../img/verduras/platano.jpg");
+        }
+
+        .v_imgder{
+            background-image: url(../img/verduras/kiwi.webp);
+        }
+
+        .v_elementos{
+            display: block;
+            height: 120px;
+            width: 290px;
+        }
