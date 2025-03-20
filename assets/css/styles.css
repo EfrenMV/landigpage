@@ -300,7 +300,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Delius&family=Gemunu+Libre:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
         /* Para pantallas menores a 1024px (laptops pequeñas) */
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
     .box_botones {
         gap: 30px;
         margin-left: 20px;
