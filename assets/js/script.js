@@ -1,18 +1,20 @@
 class Cargar {
     constructor() {
-        this.p = 0; // Contador de productos en el carrito
-        this.carrito = []; // Lista de productos en el carrito
+        this.p = 0;  
+        this.carrito = [];  
 
         document.addEventListener("DOMContentLoaded", () => {
-            this.cantidad = document.getElementById("cantidad"); // Contador en el ícono del carrito
-            this.carritoContainer = document.querySelector(".carrito"); // Div donde se muestra el carrito
+            this.cantidad = document.getElementById("cantidad"); 
+            this.carritoContainer = document.querySelector(".carrito"); 
+
+            //Para ocultar/Mostrar
             this.inicio();
             this.boton();
             this.mostrarCarrito();
         });
 
         document.getElementById("item_bag").addEventListener("click", () => {
-            this.mostrarCarrito(); // Mostrar contenido al hacer clic en el carrito
+            this.mostrarCarrito();  
         });
     }
 
@@ -36,14 +38,15 @@ class Cargar {
 
                 this.carrito.push({ nombre: nombreProducto, precio: Number(precioProducto) });
                 this.p++;
-                this.inicio();
-                this.mostrarCarrito();
+                this.inicio(); //Actualiza el numerito
+                this.mostrarCarrito(); //Actualiza el carrito
             });
         });
     }
 
     mostrarCarrito() {
-        this.carritoContainer.innerHTML = ""; // Limpiar antes de actualizar
+        //Texto del carrito
+        this.carritoContainer.innerHTML = ""; 
 
         if (this.carrito.length === 0) {
             this.carritoContainer.innerHTML = "<p>El carrito está vacío.</p>";
@@ -55,7 +58,9 @@ class Cargar {
                 let item = document.createElement("li");
                 item.textContent = `${producto.nombre} - $${producto.precio}`;
                 item.style.cursor = "pointer";
-                item.addEventListener("click", () => this.eliminarProducto(index)); // Evento para eliminar
+
+                // Evento para eliminar
+                item.addEventListener("click", () => this.eliminarProducto(index)); 
                 lista.appendChild(item);
                 total += producto.precio;
             });
