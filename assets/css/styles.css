@@ -97,7 +97,6 @@
 }
 
     .c_verduras{
-        background-color: #000000;
         position: relative;
         display: block;
         height: 580px;
@@ -105,7 +104,6 @@
     }
 
         .c_texto{
-            background-color: #c02424;
             position: relative;
             display: block;
             height: 100px;
