@@ -3,13 +3,7 @@
     margin: 0;
     box-sizing: border-box;
   }
-
-  .global{
-    display: block;
-    height: auto;
-    width: 100%;
-   }
-
+ 
   .box{
     display: block;
     height: 100vh;
@@ -108,20 +102,6 @@
         height: 580px;
         width: 1240px;
     }
-
-        .c_texto{
-            position: relative;
-            display: block;
-            height: 100px;
-            width: 1240px;
-        }
-
-        .texto_verdura{
-            position: relative;
-            background-color: #ffe598;
-            font-size: 30px;
-            font-weight: 600;
-        }
 
         .img_verduras{
             position: relative;
