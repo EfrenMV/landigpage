@@ -79,25 +79,6 @@
         box-shadow: 1px 1px 8px rgb(0, 0, 0);
     }
 
-.box_info{
-    position: relative;
-    display: flex;
-    margin-top: 3;
-    height: 500px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-}
-
-    .mini_box, .mini_box2, .mini_box3{
-        position: relative;
-        width: 380px;
-        height: 359px;
-        border-radius: 20px;
-        
-    }
-
     .mini_box, .mini_box3{
         background-color: #dcebff;
     }
