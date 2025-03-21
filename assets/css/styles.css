@@ -5,17 +5,22 @@
   }
  
   body{
-     align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100%;
     position: relative;
-    background-color: aqua;
+   }
+
+  .global{
+    background-color: yellowgreen;
+    width: 90%;
+    height: 100%;
   }
 
     .box{
-     background-color: #000000;
-     display: block;
+      display: block;
      height: 100%;
      width: 100%;
      position: relative;
