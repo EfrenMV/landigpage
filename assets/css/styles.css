@@ -14,12 +14,13 @@
    }
 
   .global{
-     width: 90%;
+    width: 90%;
     height: 100%;
   }
 
     .box{
-      display: block;
+        background-color: #000000;
+     display: block;
      height: 100%;
      width: 100%;
      position: relative;
@@ -29,12 +30,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     height: 55px;
     width: 100%;
     gap: 30px;
-    position: relative;
-    background-color: #09c509;
+     background-color: #09c509;
    }
 
   .box_top{
