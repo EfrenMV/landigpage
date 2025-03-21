@@ -98,10 +98,26 @@
 
     .c_verduras{
         position: relative;
+        margin-top: 200px;
         display: block;
         height: 580px;
         width: 1240px;
     }
+
+        .c_texto{
+            position: relative;
+            display: block;
+            height: 100px;
+            width: 1240px;
+            margin-left: 20px;
+        }
+
+        .texto_verdura{
+            position: relative;
+            background-color: #ffe598;
+            font-size: 30px;
+            font-weight: 600;
+        }
 
         .img_verduras{
             position: relative;
